@@ -3,7 +3,7 @@ const ObjectId = db.Schema.ObjectId
 const PostImgSchema = new db.Schema({
   post: {
     type: ObjectId,
-    ref: 'post'
+    ref: 'Post'
   },
   src: {
     type: String,
